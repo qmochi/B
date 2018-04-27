@@ -1,0 +1,30 @@
+html, body {
+  margin: 10px;
+  padding: 0px;
+  font-family: sans-serif;
+  background-color: skyblue;
+}
+
+.headline {
+  font-family: cursive;
+}
+
+.canvasStyle {
+  padding: 10px;
+  border: 5px solid pink;
+  max-width: 60%;
+}
+
+.uiStyle {
+  padding: 10px;
+  border: 5px solid pink;
+  background-color: deepskyblue;
+  color: white;
+  max-width: 60%;
+  font-family: monospace;
+  font-size: 16px;
+}
+
+.centered {
+  display: inline-block;
+}
