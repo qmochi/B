@@ -31,3 +31,31 @@ h1 {
   flex-wrap: wrap;
   padding: 1%;
 }
+
+.btn {
+  background: #eb59e6;
+  background-image: -webkit-linear-gradient(top, #eb59e6, #0c7fc7);
+  background-image: -moz-linear-gradient(top, #eb59e6, #0c7fc7);
+  background-image: -ms-linear-gradient(top, #eb59e6, #0c7fc7);
+  background-image: -o-linear-gradient(top, #eb59e6, #0c7fc7);
+  background-image: linear-gradient(to bottom, #eb59e6, #0c7fc7);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  text-shadow: 1px 1px 3px #666666;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 17px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #ffb5fa;
+  background-image: -webkit-linear-gradient(top, #ffb5fa, #78dcf5);
+  background-image: -moz-linear-gradient(top, #ffb5fa, #78dcf5);
+  background-image: -ms-linear-gradient(top, #ffb5fa, #78dcf5);
+  background-image: -o-linear-gradient(top, #ffb5fa, #78dcf5);
+  background-image: linear-gradient(to bottom, #ffb5fa, #78dcf5);
+  text-decoration: none;
+}
