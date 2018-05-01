@@ -1,8 +1,12 @@
 html, body {
-  margin: 10px;
+  margin: 1%;
   padding: 0px;
   font-family: sans-serif;
   background-color: skyblue;
+}
+
+h1 {
+  margin: 10px;
 }
 
 .headline {
@@ -10,9 +14,7 @@ html, body {
 }
 
 .canvasStyle {
-  padding: 10px;
   border: 5px solid pink;
-  max-width: 60%;
 }
 
 .uiStyle {
@@ -20,11 +22,12 @@ html, body {
   border: 5px solid pink;
   background-color: deepskyblue;
   color: white;
-  max-width: 60%;
   font-family: monospace;
   font-size: 16px;
 }
 
-.centered {
-  display: inline-block;
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1%;
 }
