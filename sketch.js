@@ -87,7 +87,7 @@ function setup() {
   likeText.addClass("headline");
 
   button = createButton("--> mf like button <--");
-    button.size(200,50); // size of the button
+    button.class("btn");
     button.mousePressed(smashLike);
   createP("");
 
@@ -155,6 +155,8 @@ function smashLike() {
     likeText.html("u " + random(words) + " dat mf like button " + likes + " time!!!!!");
   } else if (likes == 69) {
       likeText.html("u " + random(words) + " dat mf like button " + likes + " timez!!!!! NICE!!!!!!!!!!!!!!!!!!");
+    } else if (likes == 420) {
+      likeText.html("u " + random(words) + " dat mf like button " + likes + " timez!!!!! HELL YEA BRO SMOKE WEEEEED!!!!!!!!!");
     } else likeText.html("u " + random(words) + " dat mf like button " + likes + " timez!!!!!");
 }
 
